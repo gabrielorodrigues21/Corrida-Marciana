@@ -57,9 +57,14 @@ button:hover {
   max-width: 400px;
 }
 
+.info h2 {
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
 .info ul {
-  list-style: none;
-  margin-top: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 footer {
