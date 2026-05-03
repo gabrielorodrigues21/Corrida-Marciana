@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrida Marciana</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- p5 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>🏁 Corrida Marciana</h1>
+  <p>Clique em jogar para iniciar</p>
+</header>
+
+<main>
+
+  <section class="game-container">
+    <div id="game"></div>
+
+    <div class="controls">
+      <button onclick="iniciarJogo()">▶️ Jogar</button>
+      <button onclick="reiniciarJogo()">🔄 Reiniciar</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <h2>🎮 Controles</h2>
+    <ul>
+      <li>➡️ Gojo → Seta Direita</li>
+      <li>🐔 Lilico → Tecla D</li>
+      <li>🥤 GamesEdu → Espaço</li>
+      <li>🔺 Bill → Enter</li>
+    </ul>
+
+    <h2>🏆 Placar</h2>
+    <ul id="placar">
+      <li>Gojo: 0</li>
+      <li>Lilico: 0</li>
+      <li>GamesEdu: 0</li>
+      <li>Bill: 0</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Gabriel Rodrigues</p>
+</footer>
+
+<script src="sketch.js"></script>
+
+</body>
+</html>
